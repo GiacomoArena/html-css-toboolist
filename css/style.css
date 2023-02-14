@@ -154,3 +154,27 @@ h3{
   background-color:#F29E33;
   color: white;
 }
+#olive-text{
+  display: inline-block;
+  font-size: small;
+  width: 8%;
+  margin-left: 1%;
+  text-align: center;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 15px;
+  background-color: #B0C926;
+  color: white;
+}
+#lilla-text{
+  display: inline-block;
+  font-size: small;
+  width: 8%;
+  margin-left: 1%;
+  text-align: center;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 15px;
+  background-color:#D863A1;
+  color: white;
+}
