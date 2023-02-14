@@ -6,8 +6,15 @@
 
 }
 /* General */
-
-
+main{
+  width: 70%;
+  margin: 20px auto;
+  padding: 10px 0px 10px;
+  background-color:#F6F8F9;
+}
+body{
+  background-color: #d6dce1;
+}
 
 /* header */
 header .titolo{
@@ -24,6 +31,32 @@ img{
   vertical-align: middle;
   padding-bottom: 5px;
 }
+main{
 
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+}
 
 /* Main */
+main .first-button button{
+  width: 8%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 12%;
+  border: 1;
+  border-color: #C9CED3;
+  /* background-color: #47ADF1; */
+  
+}
+#button-1{
+  color: white;
+  background-color: #47ADF1;
+  border-color: #47ADF1;
+  margin-left: 7%;
+
+}
+
+#button-2{
+  background-color: #F6F8F9;
+  color: #9fa3a7;
+}
