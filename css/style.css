@@ -2,4 +2,28 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+
 }
+/* General */
+
+
+
+/* header */
+header .titolo{
+  width: 100%;
+  padding-top: 10px;
+  background-color: #F6F8F9;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+}
+header .titolo h1{
+  display: inline-block;
+}
+img{
+  vertical-align: middle;
+  padding-bottom: 5px;
+}
+
+
+/* Main */
