@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: Arial, Helvetica, sans-serif;
 
 }
 /* General */
@@ -23,10 +23,10 @@ header .titolo{
   padding-top: 10px;
   background-color: #F6F8F9;
   font-family: 'Poppins', sans-serif;
-  font-weight: bolder;
 }
 header .titolo h1{
   display: inline-block;
+  font-weight: bolder;
 }
 img{
   vertical-align: middle;
@@ -36,14 +36,14 @@ img{
 
 /* Main */
 .first-button{
-  border-top-left-radius: 5%;
-  border-top-right-radius: 5%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 main .first-button button{
   width: 8%;
   padding-top: 5px;
   padding-bottom: 5px;
-  border-radius: 12%;
+  border-radius: 5px;
   border: 1;
   border-color: #C9CED3;
   /* background-color: #47ADF1; */
@@ -63,4 +63,34 @@ main .first-button button{
 }
 .main-list{
   margin-top: 2.5px;
+}
+/* parte di main con i checkmark e cross  */
+
+.v{
+  width: 24px;
+  height: 23px;
+  color:#80cdbc;
+  border: solid #80cdbc;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  line-height: 10px;
+  margin-top: 5px;
+  padding-top: 5px;
+} 
+h3{
+  display: inline-block;
+  
+}
+#blue-text{
+  display: inline-block;
+  font-size: small;
+  width: 8%;
+  margin-left: 1%;
+  text-align: center;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 15px;
+  background-color: #44AAEA;
+  color: white;
 }
