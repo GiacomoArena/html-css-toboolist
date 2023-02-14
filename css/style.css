@@ -49,7 +49,7 @@ main .first-button button{
   border-radius: 5px;
   border: 1;
   border-color: #C9CED3;
-  /* background-color: #47ADF1; */
+  
   
 }
 #button-1{
@@ -82,30 +82,6 @@ main .first-button button{
   margin-top: 5px;
   padding-top: 5px;
 } 
-h3{
-  display: inline-block;
-  
-}
-.triangolo{
-  font-size: 25px;
-  display: inline-block;
-  margin-right: 5px;
-}
-#blue-text{
-  display: inline-block;
-  font-size: small;
-  width: 8%;
-  margin-left: 1%;
-  text-align: center;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  border-radius: 15px;
-  background-color: #44AAEA;
-  color: white;
-}
-.list{
-  margin-top: 1%;
-}
 .x{
   width: 24px;
   height: 23px;
@@ -118,6 +94,34 @@ h3{
   margin-top: 5px;
   padding-top: 5px;
 } 
+/* liste */
+h3{
+  display: inline-block;
+  
+}
+.triangolo{
+  font-size: 25px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.list{
+  margin-top: 1%;
+}
+/* colori  */
+#blue-text{
+  display: inline-block;
+  font-size: small;
+  width: 8%;
+  margin-left: 1%;
+  text-align: center;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 15px;
+  background-color: #44AAEA;
+  color: white;
+}
+
 #violet-text{
   display: inline-block;
   font-size: small;
